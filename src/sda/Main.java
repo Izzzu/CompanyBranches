@@ -3,7 +3,8 @@ package sda;
 public class Main {
 
 	public static void main(String[] args) {
-		
+		//komentarze ktore powinny byc usuniete poprzez zrewertowanie tego commita :)
+
 		Employee temporaryEmployee = new TemporaryEmployee(1230, "maim@onet.pl");
 		Employee fullTimeEmployee = new FullTimeEmployee(4000, "jerzy@interia.eu");
 		

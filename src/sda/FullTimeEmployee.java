@@ -1,6 +1,7 @@
 package sda;
 
 public class FullTimeEmployee extends Employee{
+	//komentarze ktore powinny byc usuniete poprzez zrewertowanie tego commita :)
 
 	public static final double SOCIAL_INSURANCE = 1000;
 

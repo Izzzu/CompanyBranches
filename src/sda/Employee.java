@@ -1,6 +1,7 @@
 package sda;
 
 public abstract class Employee implements Person{
+	//komentarze ktore powinny byc usuniete poprzez zrewertowanie tego commita :)
 
 	private double grossSalary;
 	private String email;

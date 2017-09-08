@@ -1,6 +1,7 @@
 package sda;
 
 public class Company {
+	//komentarze ktore powinny byc usuniete poprzez zrewertowanie tego commita :)
 
 	private Employee[] employees;
 	private int index = 0;
