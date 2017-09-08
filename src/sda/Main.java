@@ -1,19 +1,13 @@
 package sda;
 
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.List;
-
 public class Main {
 
 	public static void main(String[] args) {
 		
-		Employee student = new StudentEmployee(800, "jan.k@gmail.com");
 		Employee temporaryEmployee = new TemporaryEmployee(1230, "maim@onet.pl");
 		Employee fullTimeEmployee = new FullTimeEmployee(4000, "jerzy@interia.eu");
 		
-		Company myCompany = new Company();
-		myCompany.addEmployee(student);
+		Company myCompany = new Company(2);
 		myCompany.addEmployee(temporaryEmployee);
 		myCompany.addEmployee(fullTimeEmployee);
 		
